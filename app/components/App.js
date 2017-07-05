@@ -2,7 +2,7 @@ import React from 'react';
 import SimpleCard from './SimpleCard';
 
 const item = {
-  url: '../images/profile-picture.jpg',
+  url: 'app/images/profile-picture.jpg',
   title: 'Hello World',
   description: 'lorem ipsum',
 };
