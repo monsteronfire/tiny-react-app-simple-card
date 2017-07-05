@@ -1,10 +1,17 @@
 import React from 'react';
+import SimpleCard from './SimpleCard';
+
+const item = {
+  url: '../images/profile-picture.jpg',
+  title: 'Hello World',
+  description: 'lorem ipsum',
+};
 
 class App extends React.Component {
   render() {
     return (
       <div className='container'>
-        app
+        <SimpleCard item={item} />
       </div>
     )
   }
