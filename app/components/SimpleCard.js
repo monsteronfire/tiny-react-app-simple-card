@@ -8,8 +8,10 @@ class SimpleCard extends React.Component {
     return (
       <div className='simple-card'>
         <Image url={this.props.item.url}/>
-        <Title title={this.props.item.title} />
-        <Description description={this.props.item.description} />
+        <div className='info-wrapper'>
+          <Title title={this.props.item.title} />
+          <Description description={this.props.item.description} />
+        </div>
       </div>
     )
   }

@@ -2,3 +2,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #FFCC00;
 }
+
+.simple-card {
+  display: flex;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.info-wrapper {
+  padding: 20px;
+}
